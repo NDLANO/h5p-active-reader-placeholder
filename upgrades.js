@@ -1,7 +1,7 @@
 /** @namespace H5PUpgrades */
 var H5PUpgrades = H5PUpgrades || {};
 
-H5PUpgrades['H5P.PortfolioPlaceholder'] = (function () {
+H5PUpgrades['H5P.ActiveReaderPlaceholder'] = (function () {
   return {
     0: {
       /**

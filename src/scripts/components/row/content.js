@@ -31,12 +31,12 @@ export default class Content {
     }, callbacks);
 
     this.dom = document.createElement('div');
-    this.dom.classList.add('h5p-portfolio-placeholder-content');
+    this.dom.classList.add('h5p-active-reader-placeholder-content');
     this.dom.classList.add(`vertical-alignment-${params.verticalAlignment}`);
     this.dom.style.width = params.widthRelative;
 
     const contentWrapper = document.createElement('div');
-    contentWrapper.classList.add('h5p-portfolio-placeholder-content-instance');
+    contentWrapper.classList.add('h5p-active-reader-placeholder-content-instance');
     if (params.width) {
       contentWrapper.style.width = params.width;
     }

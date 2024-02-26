@@ -4,7 +4,7 @@
     "label": "Placeholder",
     "type": "group",
     "importance": "high",
-    "widget": "portfolioplaceholder",
+    "widget": "activereaderplaceholder",
     "fields": [
       {
         "name": "colorEditorField",
@@ -149,7 +149,6 @@
                 "H5P.DragQuestion 1.14",
                 "H5P.DragText 1.10",
                 "H5P.Essay 1.5",
-                "H5P.FileForDownload 1.0",
                 "H5P.Blanks 1.14",
                 "H5P.ImageHotspotQuestion 1.8",
                 "H5P.IFrameEmbed 1.0",

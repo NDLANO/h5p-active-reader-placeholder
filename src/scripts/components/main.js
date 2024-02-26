@@ -27,7 +27,7 @@ export default class Main {
     }, callbacks);
 
     this.dom = document.createElement('div');
-    this.dom.classList.add('h5p-portfolio-placeholder-contents');
+    this.dom.classList.add('h5p-active-reader-placeholder-contents');
     if (params.colorBackground !== 'rgba(0, 0, 0, 0)') {
       this.dom.style.backgroundColor = params.colorBackground;
     }

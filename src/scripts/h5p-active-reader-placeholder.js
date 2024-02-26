@@ -5,7 +5,7 @@ import API from '@mixins/api.js';
 import QuestionTypeContract from '@mixins/question-type-contract.js';
 import XAPI from '@mixins/xapi.js';
 
-export default class PortfolioPlaceholder extends H5P.EventDispatcher {
+export default class ActiveReaderPlaceholder extends H5P.EventDispatcher {
   /**
    * @class
    * @param {object} params Parameters passed by the editor.
@@ -16,7 +16,7 @@ export default class PortfolioPlaceholder extends H5P.EventDispatcher {
     super();
 
     Util.addMixins(
-      PortfolioPlaceholder, [API, QuestionTypeContract, XAPI]
+      ActiveReaderPlaceholder, [API, QuestionTypeContract, XAPI]
     );
 
     this.params = sanitize(params);
@@ -73,7 +73,7 @@ export default class PortfolioPlaceholder extends H5P.EventDispatcher {
    * @param {H5P.jQuery} $wrapper Content's container.
    */
   attach($wrapper) {
-    $wrapper.get(0).classList.add('h5p-portfolio-placeholder');
+    $wrapper.get(0).classList.add('h5p-active-reader-placeholder');
     $wrapper.get(0).appendChild(this.dom);
 
     // Make sure DOM has been rendered with content

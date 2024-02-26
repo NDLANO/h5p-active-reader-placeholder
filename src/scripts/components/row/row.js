@@ -28,7 +28,7 @@ export default class Row {
 
     params = Util.extend({ fields: [] }, params);
     this.dom = document.createElement('div');
-    this.dom.classList.add('h5p-portfolio-placeholder-content-row');
+    this.dom.classList.add('h5p-active-reader-placeholder-content-row');
 
     /*
      * totalSpaceHorizontal holds the sum of the width of all fields in the row.

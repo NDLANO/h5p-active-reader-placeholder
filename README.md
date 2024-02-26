@@ -1,14 +1,6 @@
-# H5P Portfolio Placeholder
+# H5P ActiveReader Placeholder
 
 Allows to arrange H5P contents in a group.
-
-PLEASE NOTE: THIS CONTENT TYPE IS THE RESULT OF CONTRACT WORK WITH SPECIFIC
-REQUIREMENTS THAT MAY NOT MATCH YOUR OWN EXPECTATIONS. WHILE OLIVER IS THE
-DEVELOPER, HE'S MERELY THE CONTRACTOR WHO ALSO HAPPENED TO PLEAD FOR MAKING THIS
-CONTENT TYPE OPENLY AVAILABLE - SO YOU CAN USE IT FOR FREE. HOWEVER, HE IS NOT
-SUPPOSED TO PROVIDE FREE SUPPORT, ACCEPT FEATURE REQUESTS OR PULL REQUESTS. HE
-MAY DO SO, AND HE WILL PROBABLY ALSO CONTINUE WORKING ON THE CONTENT TYPE, BUT
-AT HIS OWN PACE.
 
 ## Getting started
 Clone this repository with git and check out the branch that you are interested
@@ -17,13 +9,8 @@ how to use git really makes sense).
 
 Also ensure to clone related repositories that hold complementary components if
 you want to change those:
-- [Main Portfolio view component](https://github.com/otacke/h5p-portfolio)
-- [View component for a chapter](https://github.com/otacke/h5p-portfolio-chapter)
-- [View component for a placeholder block](https://github.com/otacke/h5p-portfolio-placeholder)
-- [Main Portfolio editor component](https://github.com/otacke/h5p-editor-portfolio)
-- [Editor component for a chapter](https://github.com/otacke/h5p-editor-portfolio-chapter)
-- [Editor component for a placeholder block](https://github.com/otacke/h5p-editor-portfolio-placeholder)
-- [Optional subcontent for offering files for download](https://github.com/otacke/h5p-file-for-download)
+- [Main ActiveReader view component](https://github.com/ndlano/h5p-active-reader)
+- [Editor component for a placeholder block](https://github.com/ndlano/h5p-editor-active-reader-placeholder)
 
 Change to the repository directory and run
 ```bash

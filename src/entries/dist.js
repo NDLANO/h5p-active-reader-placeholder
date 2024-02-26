@@ -1,4 +1,4 @@
-import PortfolioPlaceholder from '@scripts/h5p-portfolio-placeholder.js';
+import ActiveReaderPlaceholder from '@scripts/h5p-active-reader-placeholder.js';
 
 // Load library
-H5P.PortfolioPlaceholder = PortfolioPlaceholder;
+H5P.ActiveReaderPlaceholder = ActiveReaderPlaceholder;
