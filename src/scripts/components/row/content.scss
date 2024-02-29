@@ -37,5 +37,10 @@
         font-size: max(32px, 2rem);
       }
     }
+
+    &.h5p-vocabulary-drill .h5p-question.h5p-drag-text,
+    &.h5p-vocabulary-drill .h5p-question.h5p-blanks {
+      overflow: unset;
+    }
   }
 }
