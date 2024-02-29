@@ -171,7 +171,8 @@
                 "H5P.AdvancedText 1.1",
                 "H5P.Timeline 1.1",
                 "H5P.TrueFalse 1.8",
-                "H5P.Video 1.6"
+                "H5P.Video 1.6",
+                "H5P.VocabularyDrill 1.0"
               ],
               "widget": "showWhen",
               "showWhen": {
