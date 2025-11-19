@@ -166,8 +166,8 @@ export default class InstanceWrapper {
 
     // Check for (temporary) exceptions
     const exceptions = [
-      'H5P.MemoryGame', // Doesn't implement getMaxScore before V1.3.19, unfortunately minor version was not bumped when introducing it, so V1.4 it is
-      'H5P.SpeakTheWordsSet' // Doesn't implement getMaxScore yet, PR is from 2020, seehttps://github.com/h5p/h5p-speak-the-words-set/pull/22
+      'H5P.MemoryGame', // Doesn't implement getMaxScore before V1.3.19 and missing minor bump, so V1.4 it is
+      'H5P.SpeakTheWordsSet' // Doesn't implement getMaxScore yet, PR is from 2020 :-/
     ];
 
     return exceptions.includes(this.instance.libraryInfo?.machineName);
