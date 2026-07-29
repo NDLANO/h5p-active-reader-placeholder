@@ -63,9 +63,17 @@ export default class ActiveReaderPlaceholder extends H5P.EventDispatcher {
     );
 
     // Expect parent to set activity started when parent is shown
-    if (typeof this.isRoot === 'function' && this.isRoot()) {
+    if (this.isRoot()) {
       this.setActivityStarted();
     }
+  }
+
+  /**
+   * Workaround for H5P core mutating prototype to inject its isRoot, but ES6 inheritance here.
+   * @returns {boolean} True, if content type is root. Else false.
+   */
+  isRoot() {
+    return !!this.extras.standalone;
   }
 
   /**
