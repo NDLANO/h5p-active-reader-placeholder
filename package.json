@@ -1,6 +1,5 @@
 {
   "name": "h5p-active-reader-placeholder",
-  "version": "1.0.1",
   "description": "Placeholder for NDLA ActiveReader",
   "private": true,
   "scripts": {
@@ -20,20 +19,20 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
-    "@babel/cli": "^8.0.4",
-    "@babel/core": "^8.0.1",
-    "@babel/preset-env": "^8.0.2",
+    "@babel/cli": "^8.0.6",
+    "@babel/core": "^8.0.9",
+    "@babel/preset-env": "^8.0.7",
     "babel-loader": "^10.1.1",
-    "css-loader": "^7.1.4",
+    "css-loader": "^7.1.5",
     "eslint-config-ndla-h5p": "github:ndlano/eslint-config-ndla-h5p",
     "mini-css-extract-plugin": "^2.10.2",
     "regenerator-runtime": "^0.14.1",
     "resolve-url-loader": "^5.0.0",
-    "sass": "^1.101.0",
-    "sass-loader": "^17.0.0",
+    "sass": "^1.106.1",
+    "sass-loader": "^17.0.1",
     "terser-webpack-plugin": "^5.6.1",
-    "webpack": "^5.108.4",
-    "webpack-cli": "^7.2.1"
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.2.3"
   },
   "browserslist": "> 0.5%, last 3 versions, Firefox ESR, not dead"
 }
